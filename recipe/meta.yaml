@@ -1,5 +1,5 @@
 {% set name = "xhydro" %}
-{% set version = "0.8.1" %}
+{% set version = "0.9.0" %}
 {% set python_min = "3.10.0" %}
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/xhydro-{{ version }}.tar.gz
-  sha256: 51e39f31e35ad04eabae40506fd8d35188fb3e1d049a4cffd0c5e5bd6bd25d2a
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/xhydro-{{ version }}.tar.gz
+  sha256: 493c3ef3342d275afb927f78e2e9717f4bcc7145cec6988228fa2b2cbd9bc7ff
 
 build:
   noarch: python
