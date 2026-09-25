@@ -22,6 +22,7 @@ requirements:
     - pip >=25.2
   run:
     - python >={{ python_min }}
+    - botocore >1.43.75  # FIXME: Issues on CI with this version of botocore
     - cartopy >=0.23.0
     - clisops
     - dask
